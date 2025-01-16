@@ -1,12 +1,12 @@
 class Load:
-    def __init__(self, name,bus1,p,r):
+    def __init__(self, name,bus1,p,v):
         self.name = name
         self.bus1 = bus1
-        self.p = p
-        self.r = r
+        self.p = float(p)
+        self.v = float(v)
 
     def calc_g(self):
-        self.g = 1/self.r
+        self.g = self.p/(self.v)**2
 
 L1 = Load("L1","Bus A",100,5)
 
