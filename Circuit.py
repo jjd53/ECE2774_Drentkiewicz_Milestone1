@@ -36,10 +36,10 @@ class Circuit:
         print(self.i)
 
 
-circuit = Circuit("circuit")
-B1=circuit.add_bus("bus A")
-B2=circuit.add_bus("bus B")
-R1=circuit.add_resistor_element("R1","bus A","bus B",10)
-Z=circuit.add_load_element("Load","bus B",100,5)
-V1=circuit.add_vsource("V1","bus A",100)
-print(circuit.__dict__)
+# circuit = Circuit("circuit")
+# B1=circuit.add_bus("bus A")
+# B2=circuit.add_bus("bus B")
+# R1=circuit.add_resistor_element("R1","bus A","bus B",10)
+# Z=circuit.add_load_element("Load","bus B",100,5)
+# V1=circuit.add_vsource("V1","bus A",100)
+# print(circuit.__dict__)
