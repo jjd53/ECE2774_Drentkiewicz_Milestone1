@@ -1,5 +1,5 @@
 from Circuit import Circuit
-
+from Solution import Solution
 
 circuit = Circuit("circuit")
 bus_a=circuit.add_bus("bus A")
