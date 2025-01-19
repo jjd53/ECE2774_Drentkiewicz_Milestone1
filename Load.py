@@ -8,9 +8,12 @@ class Load:
     def calc_g(self):
         self.g = self.p/(self.v)**2
 
-L1 = Load("L1","Bus A",100,5)
+    def __repr__(self):
+        return f"Load(name='{self.name}', bus1='{self.bus1}', power={self.p}, voltage={self.v})"
 
-L1.calc_g()
-
-print(L1.__dict__)
+# L1 = Load("L1","Bus A",100,5)
+#
+# L1.calc_g()
+#
+# print(L1.__dict__)
 

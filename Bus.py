@@ -1,12 +1,16 @@
 class Bus:
     def __init__(self, name):
         self.name = name
-
+        self.v=0
     def set_bus(self,v):
         self.v = v
 
-B1 = Bus("B1")
+    def __repr__(self):
 
-B1.set_bus(480)
+        return f"Bus(name='{self.name}', voltage={self.v})"
 
-print(B1.__dict__)
+# B1 = Bus("B1")
+#
+# B1.set_bus(480)
+#
+# print(B1.__dict__)

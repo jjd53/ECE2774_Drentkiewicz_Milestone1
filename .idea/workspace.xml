@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8408c07-3dcc-48e3-9a33-cbd839542ce6" name="Changes" comment="First attempt at bus class">
+    <list default="true" id="a8408c07-3dcc-48e3-9a33-cbd839542ce6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Circuit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Load.py" beforeDir="false" afterPath="$PROJECT_DIR$/Load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resistor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resistor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vsource.py" beforeDir="false" afterPath="$PROJECT_DIR$/Vsource.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +41,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.Bus.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Circuit.executor&quot;: &quot;Run&quot;,
     &quot;Python.Load.executor&quot;: &quot;Run&quot;,
     &quot;Python.Resistor.executor&quot;: &quot;Run&quot;,
     &quot;Python.Vsource.executor&quot;: &quot;Run&quot;,
@@ -77,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737036081003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First attempt at bus class">
+      <option name="closed" value="true" />
+      <created>1737037421046</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737037421046</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
