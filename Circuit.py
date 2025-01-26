@@ -35,7 +35,7 @@ class Circuit:
 
     def print_nodal_voltage(self):
         for key in self.buses:
-            print ("{} = {} V".format(key,self.buses[key].v))
+            print ("{} voltage = {} V".format(key,self.buses[key].v))
         pass
     def print_circuit_current(self):
         print("Circuit current = {} A".format(self.i))
