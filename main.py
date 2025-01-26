@@ -1,5 +1,4 @@
 from Circuit import Circuit
-from Bus import Bus
 from Solution import Solution
 
 circuit = Circuit("circuit")
