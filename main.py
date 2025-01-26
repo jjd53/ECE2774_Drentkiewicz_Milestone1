@@ -1,4 +1,5 @@
 from Circuit import Circuit
+from Bus import Bus
 from Solution import Solution
 
 circuit = Circuit("circuit")
@@ -7,4 +8,10 @@ bus_b=circuit.add_bus("bus B")
 Rab=circuit.add_resistor_element("Rab","bus A","bus B",5)
 Lb=circuit.add_load_element("Lb","bus B",2000,100)
 Va=circuit.add_vsource("Va","bus A",100)
-print(circuit.__dict__)
+#print(circuit.__dict__)
+
+answer = Solution(circuit)
+
+answer.do_power_flow()
+circuit.print_nodal_voltage()
+circuit.print_circuit_current()
