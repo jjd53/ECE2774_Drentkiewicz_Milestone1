@@ -41,12 +41,12 @@ class Circuit:
     #This method simply prints the values of all bus voltages in the circuit
     def print_nodal_voltage(self):
         for key in self.buses:
-            print ("{} voltage = {} V".format(key,self.buses[key].v))
+            print ("{} voltage = {:.2f} V".format(key,self.buses[key].v))
         pass
 
     # This method simply prints the value of the current in the circuit
     def print_circuit_current(self):
-        print("Circuit current = {} A".format(self.i))
+        print("Circuit current = {:.2f} A".format(self.i))
 
 
 

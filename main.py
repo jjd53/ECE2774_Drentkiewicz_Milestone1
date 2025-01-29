@@ -6,9 +6,9 @@ from Solution import Solution
 circuit = Circuit("circuit")
 circuit.add_bus("bus A")
 circuit.add_bus("bus B")
-circuit.add_resistor_element("Rab","bus A","bus B",5)
-circuit.add_load_element("Lb","bus B",2000,100)
-circuit.add_vsource("Va","bus A",100)
+circuit.add_resistor_element("Rab","bus A","bus B",15)
+circuit.add_load_element("Lb","bus B",2000,250)
+circuit.add_vsource("Va","bus A",250)
 
 #Creates the Solution object
 answer = Solution(circuit)
